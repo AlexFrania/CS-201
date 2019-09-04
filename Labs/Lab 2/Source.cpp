@@ -29,11 +29,11 @@ int date2()
 	{
 		extY = "200";
 	}
-	else if (y <= 19, y < 9)
+	else if (y > 9, y <= 19)
 	{
 		extY = "20";
 	}
-	else if (y <=99, y > 19)
+	else if (y >= 20, y <= 99)
 	{
 		extY = "19";
 	}
