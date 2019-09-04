@@ -3,20 +3,42 @@
 using std::cin;
 using std::cout;
 using std::endl;
+using std::string;
+
 int n;
 int m;
 int d;
 int y;
+string zeroM;
+string extY;
+string zeroD;
 
 int date2()
 {
-	cout << "Please enter in your birth month: ";
-	cin >> m;
-	cout << "Enter in the exact day in the month you were born: ";
-	cin >> d;
-	cout << "Enter in the year your were born: ";
-	cin >> y;
-	cout << y << "-" << "0" << m << "-" << d << endl;
+	if (m <= 9)
+	{
+		zeroM = "0";
+	}
+
+	if (d <= 9)
+	{
+		zeroD = "0";
+	}
+
+	if (y <= 9)
+	{
+		extY = "200";
+	}
+	else if (y <= 19, y < 9)
+	{
+		extY = "20";
+	}
+	else if (y <=99, y > 19)
+	{
+		extY = "19";
+	}
+
+	cout << extY << y << "-" << zeroM << m << "-" << zeroD << d << endl;
 	return 0;
 }
 
@@ -28,7 +50,9 @@ int date()
 	cin >> d;
 	cout << "Enter in the year your were born: ";
 	cin >> y;
+	cout << "" << endl;
 	cout << m << "/" << d << "/" << y << endl;
+	cout << "" << endl;
 	date2();
 	return 0;
 }
