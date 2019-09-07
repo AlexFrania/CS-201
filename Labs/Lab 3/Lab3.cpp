@@ -4,14 +4,21 @@ using std::cout;
 using std::endl;
 
 int a = 1;
+int b = 0;
+
 
 int FirstGrid()
 {
-	while (a <= 30)
+	while (b < 600)
 	{
 		cout << "#";
-		a++;
+		++b;
+		if (b % 60 == 0)
+		{
+			cout << "\n";
+		}
 	}
+	return 0;
 }
 
 int main()
@@ -19,7 +26,7 @@ int main()
 	while (a <= 20)
 	{
 		cout << a << endl;
-		a++;
+		++a;
 	}
 	FirstGrid();
 	return 0;
