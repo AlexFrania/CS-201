@@ -9,11 +9,12 @@ using std::endl;
 
 int SecondGrid()
 {
+	int row = 0;
 	int c = 0;
 	while (c < 600)
 	{
 		++c;
-		if (c % 2 != 0)
+		if ((c+row) % 2 != 0)
 		{
 			cout << "#";
 		}
@@ -23,6 +24,7 @@ int SecondGrid()
 		}
 		if (c % 60 == 0)
 		{
+			row = 1 - row;
 			cout << "\n";
 		}
 	}
