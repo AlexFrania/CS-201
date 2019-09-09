@@ -7,12 +7,9 @@
 using std::cout;
 using std::endl;
 
-int a = 1;
-int b = 0;
-int c = 0;
-
 int SecondGrid()
 {
+	int c = 0;
 	while (c < 600)
 	{
 		++c;
@@ -34,6 +31,7 @@ int SecondGrid()
 
 int FirstGrid()
 {
+	int b = 0;
 	while (b < 600)
 	{
 		++b;
@@ -50,6 +48,7 @@ int FirstGrid()
 
 int main()
 {
+	int a = 1;
 	while (a <= 20)
 	{
 		cout << a << endl;
