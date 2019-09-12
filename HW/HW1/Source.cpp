@@ -5,20 +5,17 @@ using std::cin;
 
 int main()
 {
-	int a;
-	cin >> a;
-	if (a <= 0)
+	int i; //i is input
+	cin >> i;
+	if (i <= 0)
 	{
 		cout << "Please enter a valid number.\n";
 	}
 	else
 	{
-		for (int h = 0; h <= a; ++h) //h is height
+		for (int h = 0; h < (i+(i-1)); ++h) //h is height
 		{
-			if (h <= a)
-			{
-				cout << "#\n";
-			}
+			cout << "#\n";
 		}
 	}
 	return 0;
