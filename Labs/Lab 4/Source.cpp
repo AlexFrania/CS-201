@@ -6,7 +6,14 @@ int main()
 {
 	for (int a = 1; a <= 100; ++a)
 	{
-		cout << a << "\n";
+		if (a % 3 == 0)
+		{
+			cout << "Fizz\n";
+		}
+		else
+		{
+			cout << a << "\n";
+		}
 	}
 	return 0;
 }
