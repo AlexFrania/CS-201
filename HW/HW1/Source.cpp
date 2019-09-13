@@ -9,13 +9,16 @@ int main()
 	cin >> i;
 	if (i <= 0)
 	{
-		cout << "Please enter a valid number.\n";
+		cout << "You didn't enter a valid number.\n";
 	}
 	else
 	{
-		for (int h = 0; h < (i+(i-1)); ++h) //h is height
+		for (int r = 1; r <= (i * 2); r++) //initiates row
 		{
-			cout << "#\n";
+			for (int c = 1; c <= (i * 2) - 1; c++) //initiates column
+			{
+				cout << "#";
+			}
 		}
 	}
 	return 0;
