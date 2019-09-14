@@ -1,3 +1,9 @@
+/*Alex Frania
+Lab 5
+Date: 9/13/19
+Program: User enters an integer and the program tells them whether the number they entered is a multiple of 3.
+If the number isn't a multiple of 3 the program tells the user how much to add to make their number a multiple.
+*/
 #include <iostream>
 
 using std::cin;
