@@ -22,7 +22,13 @@ int main()
 	cin >> y2;
 	cout << "z: ";
 	cin >> z2;
+	cout << '\n';
 	float dot = (x * x2) + (y * y2) + (z * z2);
 	cout << "A dot B = " << std::fixed << std::setprecision(5) << dot;
+	cout << '\n';
+	float Cx = (y * z2) - (z * y2);
+	float Cy = (z * x2) - (x * z2);
+	float Cz = (x * y2) - (y * x2);
+	cout << "A cross B = " << std::setprecision(5) << "(" << Cx << "," << Cy << "," << Cz << ")\n";
 	return 0;
 }
