@@ -3,7 +3,7 @@
 using std::cout;
 using std::cin;
 
-int main()
+int diamond()
 {
 	cout << "Please enter an integer: ";
 	int i; //i is input
