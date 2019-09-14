@@ -14,7 +14,7 @@ int main()
 	}
 	else
 	{
-		int c,n = 1;
+		int c, n = 1;
 		int s = i - 1; //s is spaces in the diamond
 		for (n = 1; n <= i; n++) //creates top rows
 		{
@@ -23,20 +23,26 @@ int main()
 				cout << " ";
 			}
 			s--; //reduces amount of space
-			for (c = 1; c <= 2 * n - 1; c++)
+			for (c = 1; c <= (2 * n) - 1; c++)
 			{
-				cout << "*"; 
+				cout << "*";
 			}
 			cout << "\n";
 		}
-		int s = 1;
-		for (n = 1; n <= i - 1; n++) //creates bottom rows
+		s = 1;
+		for (n = i-1; n >=1 ; n--)
 		{
 			for (c = 1; c <= s; c++)
 			{
 				cout << " ";
 			}
 			s++;
+			for (c = 1; c <= (n * 2) - 1; c++)
+			{
+				cout << "*";
+			}
+			cout << "\n";
+		}
 	}
 	return 0;
 }
