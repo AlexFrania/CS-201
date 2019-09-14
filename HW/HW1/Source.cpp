@@ -29,6 +29,14 @@ int main()
 			}
 			cout << "\n";
 		}
+		int s = 1;
+		for (n = 1; n <= i - 1; n++) //creates bottom rows
+		{
+			for (c = 1; c <= s; c++)
+			{
+				cout << " ";
+			}
+			s++;
 	}
 	return 0;
 }
