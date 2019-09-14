@@ -4,7 +4,7 @@
 using std::cout;
 using std::cin;
 
-int main()
+int dotcross()
 {
 	float x, y, z = 0;
 	float x2, y2, z2 = 0;
