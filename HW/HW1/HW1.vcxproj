@@ -125,7 +125,6 @@
   <ItemGroup>
     <ClCompile Include="diamond.cpp" />
     <ClCompile Include="dotcross.cpp" />
-    <ClCompile Include="greatest.cpp" />
     <ClCompile Include="grid.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
