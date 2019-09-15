@@ -29,7 +29,7 @@ int diamond()
 			}
 			cout << "\n";
 		}
-		s = 1;
+		s = 1; //bottom rows start
 		for (n = i-1; n >=1 ; n--)
 		{
 			for (c = 1; c <= s; c++)
