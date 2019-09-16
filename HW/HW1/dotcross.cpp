@@ -29,7 +29,7 @@ int dotcross()
 	float Cx = (y * z2) - (z * y2);
 	float Cy = (z * x2) - (x * z2);
 	float Cz = (x * y2) - (y * x2);
-	cout << "A cross B = " << std::setprecision(5) << "(" << Cx << "x, " << Cy << "y, " << Cz << "z)\n";
+	cout << "A cross B = " << std::fixed << std::setprecision(5) << "(" << Cx << "x, " << Cy << "y, " << Cz << "z)\n";
 	cout << "\n";
 	return 0;
 }
