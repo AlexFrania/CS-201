@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{3D2760A9-2139-4363-94F3-C1D89889BA6E}</ProjectGuid>
-    <RootNamespace>HW1</RootNamespace>
+    <ProjectGuid>{2F0A3836-0E7D-4BE7-8075-F98EE01110C9}</ProjectGuid>
+    <RootNamespace>Grid</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,9 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="diamond.cpp" />
-    <ClCompile Include="dotcross.cpp" />
-    <ClCompile Include="milskm.cpp" />
+    <ClCompile Include="grid.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,14 +1,17 @@
 /*Alex Frania
+CS-201
+Date: 09/15/19
+Description: This program takes in the a number of miles and converts it to kilometers.
 */
 
 #include <iostream>
 #include <iomanip>
 
-using std::cout;
-using std::cin;
-
-int main()
+int milskm()
 {
+	using std::cout;
+	using std::cin;
+
 	float m = 0;
 	cout << "Enter in any number of miles: ";
 	cin >> m;

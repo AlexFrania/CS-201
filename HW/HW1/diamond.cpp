@@ -1,12 +1,19 @@
+/*Alex Frania
+CS-201
+Date: 09/15/19
+Description: Program takes in a positive integer
+and uses it to set the size and proportion of a
+characters in the shape of a diamond.
+*/
 #include <iostream>
 
-using std::cout;
-using std::cin;
-
-int diamond()
+int main()
 {
+	using std::cout;
+	using std::cin;
+
 	cout << "Please enter a positive integer: ";
-	int i; //i is input
+	int i;
 	cin >> i;
 	if (i <= 0)
 	{
@@ -15,28 +22,28 @@ int diamond()
 	else
 	{
 		int c, n = 1;
-		int s = i - 1; //s is spaces in the diamond
-		for (n = 1; n <= i; n++) //creates top rows
+		int space = i - 1;
+		for (n = 1; n <= i; n++)
 		{
-			for (c = 1; c <= s; c++) //c is character amount
+			for (c = 1; c <= space; c++)
 			{
 				cout << " ";
 			}
-			s--; //reduces amount of space
+			space--;
 			for (c = 1; c <= (2 * n) - 1; c++)
 			{
 				cout << "*";
 			}
 			cout << "\n";
 		}
-		s = 1; //bottom rows start
+		space = 1;
 		for (n = i-1; n >=1 ; n--)
 		{
-			for (c = 1; c <= s; c++)
+			for (c = 1; c <= space; c++)
 			{
 				cout << " ";
 			}
-			s++;
+			space++;
 			for (c = 1; c <= (n * 2) - 1; c++)
 			{
 				cout << "*";

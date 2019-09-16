@@ -1,11 +1,19 @@
+/*Alex Frania
+CS-201
+Date: 09/15/19
+Description: Program takes in any floating numbers the user puts in
+and converts the numbers into a single dot product number as well as
+a cross product in (x,y,z) notation.
+*/
+
 #include <iostream>
 #include <iomanip>
 
-using std::cout;
-using std::cin;
-
 int dotcross()
 {
+	using std::cout;
+	using std::cin;
+
 	float x, y, z = 0;
 	float x2, y2, z2 = 0;
 	cout << "Enter in three floating-point numbers for vector A.\n";
