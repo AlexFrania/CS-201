@@ -3,7 +3,7 @@
 using std::cout;
 using std::cin;
 
-int grid()
+int main()
 {
 	char grid[3][3] =
 	{

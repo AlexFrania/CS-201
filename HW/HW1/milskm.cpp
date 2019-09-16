@@ -7,7 +7,7 @@ Description: This program takes in the a number of miles and converts it to kilo
 #include <iostream>
 #include <iomanip>
 
-int milskm()
+int main()
 {
 	using std::cout;
 	using std::cin;

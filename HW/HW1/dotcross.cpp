@@ -9,7 +9,7 @@ a cross product in (x,y,z) notation.
 #include <iostream>
 #include <iomanip>
 
-int dotcross()
+int main()
 {
 	using std::cout;
 	using std::cin;
