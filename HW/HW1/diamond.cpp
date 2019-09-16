@@ -5,12 +5,12 @@ using std::cin;
 
 int diamond()
 {
-	cout << "Please enter an integer: ";
+	cout << "Please enter a positive integer: ";
 	int i; //i is input
 	cin >> i;
 	if (i <= 0)
 	{
-		cout << "You didn't enter a valid number.\n";
+		cout << "Your input was not valid.\n";
 	}
 	else
 	{
