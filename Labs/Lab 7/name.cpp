@@ -4,15 +4,13 @@ Lab 7*/
 
 #include <iostream>
 #include <string>
+#include "intio.hpp"
 
 int main()
 {
 	int i1;
-	int i2;
-	int i3;
 	std::cin >> i1;
-	std::cin >> i2;
-	std::cin >> i3;
+	i1 = getInt();
 
 	return 0;
 }
