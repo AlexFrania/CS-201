@@ -7,6 +7,21 @@ Lab 7*/
 #include <string>
 #include "intio.hpp"
 
+int GetIntSum()
+{
+	int i;
+
+	std::cout << "Enter integers. To get the sum of your integers, enter 0: ";
+	while (i != 0)
+	{
+		{
+			std::cout << "Sum: ";
+			putInt(i, 1);
+		}
+	}
+	return 0;
+}
+
 int main()
 {	
 	using std::cout;
