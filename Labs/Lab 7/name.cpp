@@ -7,10 +7,23 @@ Lab 7*/
 #include "intio.hpp"
 
 int main()
-{
-	int i1;
-	std::cin >> i1;
-	i1 = getInt();
+{	
+	using std::cout;
+	using std::cin;
+	
+	cout << "Enter three integers: ";
+	
+	int i = getInt();
+	int i2 = getInt();
+	int i3 = getInt();
+	cout << "\n";
+	
+	putInt(i, 10);
+	cout << "\n";
+	putInt(i2, 10);
+	cout << "\n";
+	putInt(i3, 10);
+	cout << "\n";
 
 	return 0;
 }
