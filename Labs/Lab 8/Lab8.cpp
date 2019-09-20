@@ -13,7 +13,7 @@ int main()
 	std::cin >> n;
 	if (n <= 0)
 	{
-		
+		doInput 
 	}
 
 	return 0;
