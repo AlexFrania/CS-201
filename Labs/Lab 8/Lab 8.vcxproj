@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="intio.cpp" />
     <ClCompile Include="lab8 main.cpp" />
+    <ClCompile Include="Lab8.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="intio.hpp" />

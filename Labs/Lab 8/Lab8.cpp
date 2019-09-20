@@ -1,20 +1,26 @@
-/*Alex Frania
-CS-201
-Date: 9/20/19
-Lab 8*/
-
 #include <iostream>
-#include "lab8.hpp"
 #include "intio.hpp"
+#include "lab8.hpp"
 
-int main()
+int doInput()
 {
-	int n;
-	std::cin >> n;
-	if (n <= 0)
-	{
-		doInput 
-	}
+	return getInt();
+}
 
-	return 0;
+/*int compute(int i)
+{
+	return i * i;
+}*/
+
+int compute(int i)
+{
+	if (i <= 0)
+	{
+		return 0;
+	}
+	for (int numbs = 1; numbs <= i; numbs++)
+	{
+		int evens = i % numbs = 0;
+	}
+	return evens;
 }
