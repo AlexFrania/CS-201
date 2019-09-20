@@ -7,10 +7,11 @@ int doInput()
 	return getInt();
 }
 
-/*int compute(int i)
+int compute(int i)
 {
 	return i * i;
-}*/
+}
+
 
 int compute(int i)
 {
@@ -18,9 +19,12 @@ int compute(int i)
 	{
 		return 0;
 	}
+	int evens = 0;
 	for (int numbs = 1; numbs <= i; numbs++)
 	{
-		int evens = i % numbs = 0;
+		while (i % numbs = 0)
+		{
+			evens += 1;
+		}
 	}
 	return evens;
-}
