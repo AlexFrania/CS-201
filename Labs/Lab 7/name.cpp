@@ -9,15 +9,11 @@ Lab 7*/
 
 int GetIntSum()
 {
-	int i;
-
-	std::cout << "Enter integers. To get the sum of your integers, enter 0: ";
+	int i = 0;
+	std::cin >> i;
 	while (i != 0)
 	{
-		{
-			std::cout << "Sum: ";
-			putInt(i, 1);
-		}
+		i = getInt();
 	}
 	return 0;
 }
@@ -41,5 +37,6 @@ int main()
 	putInt(i3, 10);
 	cout << "\n";
 
+	GetIntSum();
 	return 0;
 }

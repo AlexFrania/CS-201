@@ -4,6 +4,7 @@ void WordStuff(std::string word)
 {
 	using std::cout;
 	int len = word.size();
+
 	cout << "Input "<< '"' << word << '"' << " is " << len << " characters long.\n";
 	cout << "\n";
 	for (int n = 1; n <= len; n++)
