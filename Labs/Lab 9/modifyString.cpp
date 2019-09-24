@@ -1,10 +1,10 @@
 #include "modifyString.h"
 #include <string>
 
-int main(std::string & referencedString, int n)
-{	
-	int i;
-	
-	n % 10 = i;
-	return 0;
+int modifyString(std::string & referencedString, int n)
+{
+	n += (n % 10);
+	std::string i = std::to_string(n);
+	referencedString += i;
+	return referencedString.size();
 }
