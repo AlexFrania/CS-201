@@ -8,24 +8,10 @@ Description:
 #include <vector>
 #include <string>
 #include <algorithm>
-
-void InputNames()
-{
-	using std::cin;
-	using std::string;
-	string name;
-
-	for (int i = 0; i < 10; i++)
-	{
-		std::string name;
-		std::cout << "Please enter a name: ";
-		std::getline(cin, name);
-		names.push_back(name);
-	}
-}
+#include "InputNames.h"
 
 int main(int argc, char **argv)
 {
-	void InputNames(std::vector<std::string> & names);
+
 	return 0;
 }
