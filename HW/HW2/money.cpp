@@ -22,5 +22,41 @@ int main()
 	cin >> quarters;
 	cout << "\n";
 
+	if (pennies != 1)
+	{
+		cout << pennies << " pennies.\n";
+	}
+	else
+	{
+		cout << "1 penny.\n";
+	}
+
+	if (nickles != 1)
+	{
+		cout << nickles << " nickles.\n";
+	}
+	else
+	{
+		cout << "1 nickle.\n";
+	}
+
+	if (dimes != 1)
+	{
+		cout << dimes << " dimes.\n";
+	}
+	else
+	{
+		cout << "1 dime.\n";
+	}
+
+	if (quarters != 1)
+	{
+		cout << quarters << " quarters.\n";
+	}
+	else
+	{
+		cout << "1 quarter.\n";
+	}
+	cout << "\n";
 	return 0;
 }
