@@ -18,13 +18,5 @@
     <ClCompile Include="names.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="InputNames.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="InputNames.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
