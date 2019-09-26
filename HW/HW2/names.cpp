@@ -9,6 +9,13 @@ Description:
 #include <string>
 #include <algorithm>
 
+void InputNames(std::vector<std::string>& names)
+{
+	std::string x;
+	std::cin >> x;
+	names.push_back(x);
+}
+
 int main(int argc, char **argv)
 {
 	std::vector <std::string> names;
