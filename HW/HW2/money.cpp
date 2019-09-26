@@ -60,5 +60,15 @@ int main()
 	cout << "\n";
 
 	total = pennies + (nickles * 5) + (dimes * 10) + (quarters * 25);
+
+	if (total < 100)
+	{
+		cout << "In total, you have " << total << "cents.\n\n";
+	}
+	else
+	{
+		total /= 100;
+		cout << "You have $" << total << "\n\n";
+	}
 	return 0;
 }
