@@ -29,6 +29,15 @@ bool DoesNameExist(const std::string& nametoFind, const std::vector<std::string>
 	return false;
 }
 
+void PrintNames(const std::vector<std::string>& names)
+{
+	int n;
+	for (int i = 0; i < n; i++)
+	{
+		std::cout << "\n";
+	}
+}
+
 int main(int argc, char **argv)
 {
 	std::vector <std::string> names;
