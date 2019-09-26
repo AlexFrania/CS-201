@@ -1,7 +1,7 @@
 /*Alex Frania
 CS-201
 Date: 9/18/19
-HW2
+HW2: Names
 Description: 
 */
 #include <iostream>
@@ -44,7 +44,7 @@ int main(int argc, char **argv)
 	for (int i = 0; i < 10; i++)
 	{
 		std::string name;
-		std::cout << "Please enter a name:\n";
+		std::cout << "Please enter a name: ";
 		std::getline(std::cin, name);
 		names.push_back(name);
 	}

@@ -1,9 +1,19 @@
+/*Alex Frania
+CS-201
+Date: 9/18/19
+HW2: Money
+Description: User inputs the amount of coins they have for each coin type
+and the program outputs the number of coins and its total, either as the 
+the number of coins if the total is lower than 100 or as a dollar amount if 
+its over.
+*/
+
 #include <iostream>
 
 using std::cout;
 using std::cin;
 
-int main()
+int money()
 {
 	double pennies = 0;
 	double nickles = 0;
