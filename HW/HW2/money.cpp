@@ -58,5 +58,7 @@ int main()
 		cout << "1 quarter.\n";
 	}
 	cout << "\n";
+
+	total = pennies + (nickles * 5) + (dimes * 10) + (quarters * 25);
 	return 0;
 }
