@@ -25,7 +25,6 @@ int main()
 			break;
 		}
 		cout << "Now enter in an integer: ";
-		cin.clear();
 		cin >> boxer;
 
 		while (proof == false)
