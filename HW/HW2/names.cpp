@@ -38,7 +38,7 @@ void PrintNames(const std::vector<std::string>& names)
 	}
 }
 
-int main(int argc, char **argv)
+int names(int argc, char **argv)
 {
 	std::vector <std::string> names;
 	for (int i = 0; i < 10; i++)
