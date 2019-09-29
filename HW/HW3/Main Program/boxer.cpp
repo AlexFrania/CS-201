@@ -1,3 +1,10 @@
+/*Alex Frania
+HW2: Text in a box.
+Date: 9/28/19
+Description: This program takes in a string and an integer from the user and creates a box of "*" characters
+around the string. The size of the box is dependant on the integer the user inputs.
+*/
+
 #include <iostream>
 #include "boxerprint.h"
 #include <string>

@@ -1,3 +1,10 @@
+/*Alex Frania
+HW2: Quadratic
+Date: 9/28/19
+Description: This program takes in 3 integers for the quadratic formula and uses them
+to find the two roots of x, if there are any.
+*/
+
 #include <iostream>
 #include <cmath>
 
@@ -10,11 +17,11 @@ int main()
 	int x1, x2;
 
 	cout << "Here's a quadratic equation: ax^2 + bx + c = 0\n";
-	cout << "Enter in the number for a: ";
+	cout << "Enter in an integer for a: ";
 	cin >> a;
-	cout << "Enter in the number for b: ";
+	cout << "Enter in an integer for b: ";
 	cin >> b;
-	cout << "Enter in the number for c: ";
+	cout << "Enter in an integer for c: ";
 	cin >> c;
 	cout << "\n";
 

@@ -1,3 +1,10 @@
+/*Alex Frania
+HW2: Broken Kelvin
+Date: 9/28/19
+Description: This program takes in a value in Celsius greater than or equal to -273.15 and converts it into Kelvin.
+There is also non-functioning code which is marked up with corrections that would make it functional.
+*/
+
 /* double ctok(double c)
 {
 	int k = c + 273.15; // k should be a double, not an integer.
