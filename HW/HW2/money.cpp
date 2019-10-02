@@ -13,7 +13,7 @@ its over.
 using std::cout;
 using std::cin;
 
-int money()
+int main()
 {
 	double pennies = 0;
 	double nickles = 0;
