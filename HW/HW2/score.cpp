@@ -6,7 +6,7 @@
 using std::cout;
 using std::cin;
 
-int main()
+int score()
 {
 	std::vector<std::string> names;
 	std::vector<int> scores;

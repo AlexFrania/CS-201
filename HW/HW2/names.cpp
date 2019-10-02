@@ -10,17 +10,30 @@ Description:
 #include <algorithm>
 
 void InputNames(std::vector<std::string>& names)
-{
-	std::string x;
-	std::cin >> x;
-	names.push_back(x);
+{	
+	for (int i = 0; i < 10; i++)
+	{
+		std::string name;
+
+		std::cout << "Enter a name: ";
+		std::cin >> name;
+		names.push_back(name);
+		
+		if (i == 10)
+		{
+			std::string nameToFind;
+
+			std::cout << "What name would you like to look "
+			DoesNameExist(nameToFind, names); // Working on this part
+		}
+	}	
 }
 
-bool DoesNameExist(const std::string& nametoFind, const std::vector<std::string>& names)
+bool DoesNameExist(const std::string& nameToFind, const std::vector<std::string>& names)
 {
 	for (int i = 0; i < names.size(); i++)
 	{
-		if (names[i] == nametoFind)
+		if (names[i] == nameToFind)
 		{
 			return true;
 			break;
@@ -38,15 +51,17 @@ void PrintNames(const std::vector<std::string>& names)
 	}
 }
 
-int names(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	std::vector <std::string> names;
+	InputNames(names);
+	/*std::vector <std::string> names;
 	for (int i = 0; i < 10; i++)
 	{
 		std::string name;
 		std::cout << "Please enter a name: ";
 		std::getline(std::cin, name);
 		names.push_back(name);
-	}
+	}*/
 	return 0;
 }
