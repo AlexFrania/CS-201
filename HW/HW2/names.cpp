@@ -71,7 +71,7 @@ void InputNames(std::vector<std::string>& names)
 	}	
 }
 
-int main(int argc, char **argv)
+int names(int argc, char **argv)
 {
 	std::vector <std::string> names;
 	InputNames(names);

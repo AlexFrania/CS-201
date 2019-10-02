@@ -125,7 +125,7 @@
   <ItemGroup>
     <ClCompile Include="money.cpp" />
     <ClCompile Include="names.cpp" />
-    <ClCompile Include="score.cpp" />
+    <ClCompile Include="scores.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
