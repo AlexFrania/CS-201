@@ -1,10 +1,10 @@
-#include "vector_manip.hpp"
 #include <iostream>
+#include "vector_manip.hpp"
 
-void InitializedList(const std::vector <std::string>& words={})
+void PrintWords(const std::vector <std::string>& words)
 {
-	for (int i : {1, 2})
+	for (const std::string& word: words)
 	{
-		std::cout << words[i] << " ";
+		std::cout << word << " ";
 	}
 }

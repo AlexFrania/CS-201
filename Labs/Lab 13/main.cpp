@@ -19,7 +19,8 @@ int main() {
 	//TODO REQUIRED Print original words with a range-based for loop.
 	//     Access each string by-reference and make it constant.
 
-	InitializedList({ "it—neatly—", "Hey,", "howdy!" });
+	std::vector <std::string> words = { "it—neatly—", "Hey,", "howdy!" };
+	PrintWords(words);
 
 	std::cout << "\n";
 	return 0;
