@@ -38,9 +38,9 @@ void PrintNames(const std::vector<std::string>& names)
 	}
 }
 
-void PrintChar(const std::vector<std::string>& names)
+void PrintLength(const std::vector<std::string>& names)
 {
-	std::cout << "\nPrint Character Length\n";
+	std::cout << "\nPrint Name Length\n";
 	for (int i = 0; i < names.size(); i++)
 	{
 		std::cout << names[i].size();
@@ -57,24 +57,22 @@ void InputNames(std::vector<std::string>& names)
 		std::cout << "Enter a name: ";
 		std::cin >> name;
 		names.push_back(name);
-		
-		if (i == 10)
-		{
-			std::string nameToFind;
-
-			std::cout << "\nSearch for name in list: ";
-			std::cin >> nameToFind;
-			DoesNameExist(nameToFind, names);
-			PrintNames(names);
-			PrintChar(names);
-		}
 	}	
 }
 
 int main(int argc, char **argv)
 {
 	std::vector <std::string> names;
+	std::string nameToFind;
+
 	InputNames(names);
+
+	std::cout << "\nSearch for name in list: ";
+	std::cin >> nameToFind;
+
+	DoesNameExist(nameToFind, names);
+	PrintNames(names);
+	PrintLength(names);
 	/*std::vector <std::string> names;
 	for (int i = 0; i < 10; i++)
 	{
