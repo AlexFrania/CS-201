@@ -50,7 +50,7 @@ bool SearchScore(const int& scoreToFind, const std::vector<std::string>& names, 
 	return true;
 }
 
-int main()
+int scores()
 {
 	std::vector <std::string> names;
 	std::vector <int> scores;
