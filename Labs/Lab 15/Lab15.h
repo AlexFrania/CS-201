@@ -5,4 +5,4 @@
 #include <vector>
 #include <sstream>
 
-void StringSquared(std::vector <std::string> numbs);
+int numb(std::string s);

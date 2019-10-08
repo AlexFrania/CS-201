@@ -1,7 +1,9 @@
 #include "Lab15.h"
 
-void StringSquared(std::vector <std::string> numbs)
+int numb(std::string i)
 {
-	for (int )
-	std::istringstream instream(numbs);
+	std::istringstream correct(i);
+	int x;
+	correct >> x;
+	return x;
 }
