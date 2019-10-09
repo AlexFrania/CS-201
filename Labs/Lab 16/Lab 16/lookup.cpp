@@ -24,17 +24,22 @@ using std::istringstream;
 // Search in an attempt to find the given key. If it is not found,
 // returns false. If it is found, sets thevalue to the associated value
 // and returns true.
+
 bool sequentialSearch(vector<int> keys,
 	vector<string> values,
 	int thekey,
 	string& thevalue)
 {
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < keys.size(); i++)
 	{
 		if (keys[i] == thekey)
-
+		{
+			thevalue = values[i];
+			return true;
+		}
 	}
-	return false;  // DUMMY
+	return false;
+	  // DUMMY
 	// TODO: Write this!
 }
 
